@@ -1,20 +1,14 @@
-import { Logo } from './logo'
+import { Logo } from './logo';
+import { Wheel } from './wheel';
+
+// https://missingdice.com/spin-the-wheel/
 
 export function App(props) {
   return (
     <>
       <Logo />
       <p>Hello Vite + Preact!</p>
-      <p>
-        <a
-          class="link"
-          href="https://preactjs.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Preact
-        </a>
-      </p>
+      <Wheel />
     </>
-  )
+  );
 }
