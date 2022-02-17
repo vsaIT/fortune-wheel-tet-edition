@@ -1,5 +1,5 @@
 # Fortune wheel (tet edition)
-https://eager-wright-5e7e5c.netlify.app
+https://vsait-fortune-wheel-tet-edition.netlify.app/
 
 ### Insiprations:
 - https://github.com/shekharramola/react-wheel-of-prizes
