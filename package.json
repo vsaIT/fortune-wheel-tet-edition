@@ -1,7 +1,8 @@
 {
   "name": "fortune-wheel-tet-edition",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "homepage": "https://vsaIT.github.io/fortune-wheel-tet-edition",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
