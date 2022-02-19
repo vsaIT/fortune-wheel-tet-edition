@@ -10,16 +10,10 @@ const data = [
   { text: '2', color: colors[1] },
   { text: '3', color: colors[0] },
   { text: '4', color: colors[1] },
-  { text: '5', color: colors[0] },
-  { text: '6', color: colors[1] },
-  { text: '7', color: colors[0] },
-  { text: '8', color: colors[1] },
-  { text: '9', color: colors[0] },
-  { text: '10', color: colors[1] },
-  { text: '11', color: colors[0] },
-  { text: '12', color: colors[1] },
-  { text: '13', color: colors[0] },
-  { text: '14', color: colors[1] },
+  { text: '1', color: colors[0] },
+  { text: '2', color: colors[1] },
+  { text: '3', color: colors[0] },
+  { text: '4', color: colors[1] },
 ];
 
 export const Wheel = () => {
