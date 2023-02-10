@@ -13,6 +13,18 @@ export const App = (_) => {
       <FlowerCover />
       <img className="cloudLeft" src="./cloudleft.png" alt="Left cloud" />
       <img className="cloudRight" src="./cloudright.png" alt="Right cloud" />
+      <img
+        id="leftshadow"
+        className="cloudLeft"
+        src="./cloudleft.png"
+        alt="Left cloud"
+      />
+      <img
+        id="rightshadow"
+        className="cloudRight"
+        src="./cloudright.png"
+        alt="Right cloud"
+      />
       <img className="pick" src="./pick.png" alt="Wheel pick" />
       <CornerPiece className="corner topleft" />
       <CornerPiece className="corner topright" />

@@ -10,7 +10,9 @@ body {
   align-items: center;
   height: 100vh;
   overflow: hidden;
-  background: radial-gradient(80% 80% at 50% 50%, tomato 0%, #ffffff 100%);
+  /* background: #6f010a; */
+  background: #4f1219;
+  background: radial-gradient(30% 30% at 50% 50%, #1f0408 0%, #4f1219 100%);
   background-size: cover;
 }
 .mainbox {
@@ -147,9 +149,19 @@ span b {
 }
 .cloudLeft {
   transform: translate(-170%, -80%);
+  filter: brightness(0.98);
 }
 .cloudRight {
   transform: translate(65%, 0%);
+  filter: brightness(0.98);
+}
+#leftshadow {
+  transform: translate(-160%, -70%);
+  opacity: 0.15;
+}
+#rightshadow {
+  transform: translate(75%, -5%);
+  opacity: 0.15;
 }
 .pick {
   transform: translate(-50%, -360%);
